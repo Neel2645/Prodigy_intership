@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#home">MyCompany</a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div id="content">
+        <section id="home">
+            <div class="hero">
+                <h1>Welcome to MyCompany</h1>
+                <p>Providing exceptional services for over a decade.</p>
+                <a href="#services" class="btn">Our Services</a>
+            </div>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Our company has been providing exceptional services for over a decade. We are dedicated to our customers and their satisfaction is our priority.</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="Team Member 1">
+                    <h3>Neel Sathvara</h3>
+                    <p>CEO</p>
+                <!-- Add more team members as needed -->
+            </div>
+        </section>
+        <section id="services">
+            <h1>Our Services</h1>
+            <div class="service-cards">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Creating stunning websites that meet your business needs.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Developing user-friendly mobile applications for all platforms.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Services</h3>
+                    <p>Providing reliable cloud solutions to scale your business.</p>
+                </div>
+                <!-- Add more service cards as needed -->
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Have any questions or need assistance? Reach out to us through our contact form below, and we will get back to you as soon as possible.</p>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> info@mycompany.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Main Street,India</p>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MyCompany. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

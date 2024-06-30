@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="Task2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="timer-Display">
+            00 : 00 : 00 : 00
+        </div>
+        <ul class="laps"></ul>
+        <div class="action">
+            <button class="startTimer" onclick="start()">Start</button>
+            <button class="pauseTimer" onclick="pause()">Pause</button>
+            <button class="resetTimer" onclick="reset()">Reset</button>
+            <button class="restartTimer" onclick="restart()">Restart</button>
+            <button class="lap" onclick="lap()">Lap</button>
+            <button class="resetLap" onclick="resetLap()">Reset Laps</button>
+        </div>
+    </div>
+
+    <script src="Task2.js"></script>
+</body>
+</html>
